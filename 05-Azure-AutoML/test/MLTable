@@ -1,0 +1,6 @@
+paths:
+  - file: ./test.csv
+transformations:
+  - read_delimited:
+        delimiter: ','
+        encoding: 'utf8'
